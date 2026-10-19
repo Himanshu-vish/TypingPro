@@ -1,2 +1,7 @@
 # TypingPro
-for learning purpose create a desktop application
+
+Professional Offline Hindi & English Typing Software
+
+Version : 1.0
+
+Developed Using Python + PySide6

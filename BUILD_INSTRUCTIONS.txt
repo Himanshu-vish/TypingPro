@@ -1,0 +1,37 @@
+TYPINGPRO v1.0.0 - FINAL WINDOWS BUILD
+
+1. Keep this folder on your Windows PC.
+2. Optional but recommended for your current development PC:
+   Double-click migrate_current_data.bat once.
+   This copies existing data/typing_reports.json to:
+   %LOCALAPPDATA%\TypingPro\typing_reports.json
+   It never overwrites an existing LocalAppData report file.
+
+3. Double-click build_release.bat.
+   Output: dist\TypingPro\TypingPro.exe
+
+4. TEST dist\TypingPro\TypingPro.exe:
+   - Guest launch
+   - Sign up/login/logout/forgot PIN
+   - English typing
+   - Hindi InScript typing
+   - Learn Typing
+   - Reports
+   - Settings
+   - Close/reopen and confirm data persists
+
+5. Install Inno Setup 6 if it is not already installed.
+6. Double-click build_installer.bat.
+   Output: installer\output\TypingPro_Setup_v1.0.0.exe
+
+UPDATE MODEL
+- Keep the same AppId in installer/TypingPro.iss forever.
+- Increase APP_VERSION in app/core/version.py.
+- Increase MyAppVersion and VersionInfo values in TypingPro.iss.
+- Rebuild EXE, then rebuild installer.
+- Installer replaces Program Files app files.
+- User data remains in %LOCALAPPDATA%\TypingPro.
+
+IMPORTANT
+Do not put writable reports/database inside Program Files.
+Do not delete %LOCALAPPDATA%\TypingPro during normal upgrades.

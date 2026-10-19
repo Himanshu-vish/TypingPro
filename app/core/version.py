@@ -1,0 +1,3 @@
+APP_NAME = "TypingPro"
+APP_VERSION = "1.0.0"
+APP_DISPLAY_VERSION = "v1.0"

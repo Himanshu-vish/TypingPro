@@ -1,0 +1,43 @@
+# ============================================
+# TypingPro Theme
+# Version : 0.4
+# ============================================
+
+PRIMARY_COLOR = "#1976D2"
+PRIMARY_DARK = "#0D47A1"
+
+SIDEBAR_COLOR = "#243447"
+
+WINDOW_BACKGROUND = "#F5F7FA"
+
+HEADER_BACKGROUND = "#FFFFFF"
+
+CARD_BACKGROUND = "#FFFFFF"
+
+SUCCESS_COLOR = "#2E7D32"
+
+WARNING_COLOR = "#F9A825"
+
+ERROR_COLOR = "#D32F2F"
+
+TEXT_PRIMARY = "#212121"
+
+TEXT_SECONDARY = "#616161"
+
+BORDER_COLOR = "#E0E0E0"
+
+RADIUS = 12
+
+HEADER_HEIGHT = 70
+
+SIDEBAR_WIDTH = 250
+
+FONT_FAMILY = "Segoe UI"
+
+TITLE_SIZE = 20
+
+SUBTITLE_SIZE = 15
+
+NORMAL_SIZE = 11
+
+SMALL_SIZE = 10
